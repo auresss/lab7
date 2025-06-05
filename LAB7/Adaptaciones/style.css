@@ -1,0 +1,59 @@
+
+        /* Estilos vivos y gradientes, tema claro */
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            background: linear-gradient(135deg, #fffde4 0%, #f9f6ff 100%);
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        .main-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: linear-gradient(120deg, #fceabb 0%, #f8b500 100%);
+            border-radius: 18px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+            padding: 40px 30px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 2em;
+            color: #ff512f;
+        }
+        ul, ol {
+            margin: 1em 0 1em 2em;
+        }
+        .ejemplo, .buena-adaptacion {
+            background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+            color: #fff;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 18px 0;
+            box-shadow: 0 2px 8px rgba(67, 206, 162, 0.08);
+        }
+        .buena-adaptacion {
+            background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+            color: #333;
+        }
+        .icon {
+            font-size: 1.3em;
+            margin-right: 6px;
+        }
+        @media (max-width: 600px) {
+            .main-container {
+                padding: 20px 5vw;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
