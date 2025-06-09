@@ -18,7 +18,7 @@ body {
 }
 
 #Suitsbutton {
-    background-image: ;
+    background-image: unset;
 }
 
 #nobocabutton {
@@ -27,7 +27,7 @@ body {
 }
 
 #Adapbutton {
-    background-image: ;
+    background-image: unset;
 }
 
 #buttons-container button {
