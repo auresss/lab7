@@ -78,18 +78,20 @@ p {
 
 #tab {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 24px;
 }
 
 img {
   width: auto;
   height: auto;
-  padding: 20px;
-  max-width: 100%;
-  max-height: 100%;
+  margin: 20px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+#img1 {
+  width: 40%;
 }
 
 strong {
@@ -97,8 +99,34 @@ strong {
   text-decoration: underline;
 }
 
-#characters-list li {
-  padding: 5px;
+tbody {
+  background-color: #222;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(75, 60, 60);
+}
+
+td, th {
+  border: 1px solid rgb(75, 60, 60);
+  padding: 8px;
+}
+
+#characters-table td{
+  text-align: center;
+}
+
+#table-text  {
   text-align: justify;
   margin-right: 5%;
+  margin-left: 5%;
+  font-size: 1.09em;
+}
+
+#img-tab {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
 }
